@@ -64,7 +64,10 @@ KBList.Add "4019472"
 KBList.Add "4015217"
 KBList.Add "4015438"
 KBList.Add "4016635"
+KBList.Add "4019264"
 
+	'20170518: added KB4019264 for the false positive in Windows 7
+	
 Set WshShell = CreateObject("WScript.Shell")
 
 CreateObject("WScript.Shell").Popup "Fetching list of installed KBs" & vbcrlf & vbcrlf & "This may take some minutes...", 5, "Vulnerable to EternalBlue?", vbOKOnly
