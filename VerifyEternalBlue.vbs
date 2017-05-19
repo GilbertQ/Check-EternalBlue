@@ -64,6 +64,10 @@ KBList.Add "4019472"
 KBList.Add "4015217"
 KBList.Add "4015438"
 KBList.Add "4016635"
+KBList.Add "4015546"
+KBList.Add "4015549"	
+
+	'	Added 4015546 and 4015549 for Windows seven
 
 Set WshShell = CreateObject("WScript.Shell")
 
